@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
+        <!-- text font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/bc6324b2dd.js" crossorigin="anonymous"></script>
+        <!-- tailwind css -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+          <!-- Daisy ui -->
+          <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+          <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+  <header class=" bg-[#F7F7F7]">
+    <nav class="pl-10 pt-8 ">
+            <div class="bg:green flex gap-2"><i class=" -rotate-45 fa-solid fa-arrow-right bg-[#8edd34] rounded-full w-4 h-4"></i><h1 class="font-bold text-xl">Rinterio</h1></div>
+            <div class="flex justify-center space-x-4 ">
+              <option class="font-bold">Home<option>
+              <option>Services<option>
+              <option>Portfolio<option>
+              <option>Blogs<option>
+              <option>Contact Us<option>
+              </div>
+            <div class="flex flex-row-reverse space-x-4 space-x-reverse pr-24  ">
+              <div><i class="fa-solid fa-magnifying-glass bg-[#FFFFFF] rounded-full w-6 h-6"></i>
+                <i class="fa-solid fa-cart-shopping bg-[#FFFFFF] rounded-full w-6 h-6"></i>
+                <button class="btn w-64 rounded-full bg-[#ABEF5F] font-bold">Book Consult <i class=" -rotate-45 fa-solid fa-arrow-right text-white bg-black rounded-full w-4 h-4"></i></button></div>
+                
+            </div>
+          
+    </nav>
+  </header>
+  <section class="bg-[#F7F7F7] ">
+    <div class="flex justify-center text-center ">
+      <div>
+      <img src="./assets/banner.png" alt="Coming Soon">
+      <h1 class="font-bold text-4xl">A barn house of this design has a<br> striking appearance</h1>
+      <br/>
+      <br/>
+      <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br>accents, and large windows that flood the space with natural light.</p>
+      <br/>
+      <button class="btn w-64 rounded-full bg-[#D4F6AE] font-bold">Book Consult <i class=" -rotate-45 fa-solid fa-arrow-right text-white bg-[#8edd34] rounded-full w-4 h-4"></i>
+    </div>
+    </div> 
+  </section>
+<section class="bg-[#F4F4F4] flex pt-20 justify-end gap-10">
+  <div class="pr-25">
+    <img src="./assets/Vector.png" alt="Coming soon">
+  </div>
+  <br/>
+  <div>
+  <div>
+    <button class="w-40 h-7 bg-[#FFFFFF] rounded-full"><div><i class="fa-solid fa-arrow-right pr-3"></i>About Us</button>
+      <br>
+      <h1 class="text-4xl font-bold mt-6">We design thoughtful,<br>liveable spaces</h1>
+      <br/>
+      <p>The barn house captivates with its blend of rustic charm and modern<br/>sophistication, featuring weathered wood, sleek metal accents.</p>
+  </div>
+  <div>
+  <div class="flex w-96 bg-[#FFFFFF] rounded-lg mt-8 pl-5">
+    <img src="./assets/commercial.png" alt="Coming Soon">
+    <div>
+      <h1 class="font-bold">Commercial</h1>
+      <p>The barn house captivates with its blend<br>of rustic charm and modern.</p>
+    </div>
+  </div>
+  <div class="flex w-96 bg-[#FFFFFF] rounded-lg mt-8 pl-5">
+    <img src="./assets/residential.png" alt="Coming Soon">
+    <div>
+      <h1 class="font-bold">Residential</h1>
+      <p>The barn house captivates with its blend<br>of rustic charm and modern.</p>
+    </div>
+  </div>
+</div>
+ 
+</div>
+<div >
+  <img class="w-4506 h-150" src="./assets/Rectangle.png" alt="Coming Soon">
+</div>
+</section>
 </body>
-</html>
+</html> 
